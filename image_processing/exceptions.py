@@ -10,6 +10,8 @@ class ImageProcessingError(Exception):
 class KakaduError(ImageProcessingError):
     pass
 
+class OpenJPEGError(ImageProcessingError):
+    pass
 
 class ValidationError(ImageProcessingError):
     pass
