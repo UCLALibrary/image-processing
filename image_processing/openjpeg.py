@@ -9,8 +9,7 @@ from image_processing.exceptions import OpenJPEGError
 from image_processing import utils
 
 LOSSLESS_COMPRESS_OPTIONS = [
-    "-q", "1", "-t", "512,512", "-TP", "R", "-b", "64,64", "-n", "6", "-c", "[256,256],[256,256],[128,128]",
-    "-p", "RPCL", "-SOP"
+    "-t", "512,512", "-TP", "R", "-b", "64,64", "-n", "6", "-c", "[256,256],[256,256],[128,128]", "-p", "RPCL", "-SOP"
 ]
 
 class OpenJPEG(object):
